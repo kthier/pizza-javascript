@@ -1,18 +1,5 @@
-// Get the pizza size price and add it to the running Total
-// then pass that running total to the next function so 
-// the next function will add a particular total to the running total and so on...
-//
-// Keep doing this until you get all items added to the running total.
-//
-// Just remember that the syntax will be text1 = text1 + something + "<br>";
-// So you take the orginal value and concetenate to something new and end it with
-// an HTML line break so our code will write the next thing one line below instead
-// of overwriting the previous print out.
-
 //Reciept
 function getReceipt() {
-	// This initializes our string so it can get passed from  
-	// function to function, growing line by line into a full receipt
 	var text1 = "Your Pizza Has Been Ordered:"+"<br>";
 	var runningTotal = 0;
 	var sizeTotal = 0;
@@ -36,17 +23,8 @@ function getReceipt() {
 	console.log(selectedSize+" = $"+sizeTotal+".00");
 	console.log(text1);
 	console.log("subtotal: $"+runningTotal+".00");
-	getMeat(runningTotal,text1); // All three of these variables will be passed on to each function
+	getMeat(runningTotal,text1); 
 };	
-
-// With both the meat and veggie functions each item in the array will be
-// 1 dollar but the first is going to be free so we can count the total
-// of items in their array and subtract 1 to get the total item cost
-//
-// Now we can add the item cost to our running total to get the new
-// running total and then pass this new running total to the next function
-// Just keep up this process until we've added all items to the running total
-
 
 //Meat
 function getMeat(runningTotal,text1) {
@@ -189,13 +167,3 @@ function getVeggies(runningTotal,text1) {
 	document.getElementById("showText").innerHTML=text1;
 	document.getElementById("totalPrice").innerHTML = "<h2>Total: <strong>$"+runningTotal+".00"+"</strong></h2>";
 };
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
