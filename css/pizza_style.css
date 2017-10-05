@@ -1,0 +1,56 @@
+h3 {
+	color:#fff;
+	font-family:verdana;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+.one{
+	margin: 40px auto;
+	padding: 20px;
+	display: inline-block;
+	clear: left;
+	text-align: left;
+}
+
+.two{
+	margin: 40px auto;
+	padding: 20px;
+	display: inline-block;
+	clear: left;
+	text-align: left;
+}
+
+.three{
+	margin: 40px auto;
+	padding: 20px;
+	display: inline-block;
+	clear: left;
+	text-align: left;
+}
+.cheeses{
+	color: #262626;
+}
+
+.four{
+	color: #262626;
+	margin: 40px auto;
+	padding: 20px;
+	display: inline-block;
+	clear: left;
+	text-align: left;
+ }
+ .five{
+	margin: 40px auto;
+	padding: 20px;
+	display: inline-block;
+	clear: left;
+	text-align: left;
+}
+
+.six{
+	padding: 20px;
+	display: inline-block;
+	clear: left;
+	text-align: left;
+ }
